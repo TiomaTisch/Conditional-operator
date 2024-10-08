@@ -38,5 +38,6 @@ public class Main {
         int capacity = 102;
         int seating = 60;
         int place = Integer.parseInt(System.console().readLine("Enter your age: "));
+
     }
 }
