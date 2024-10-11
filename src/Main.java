@@ -85,15 +85,15 @@ public class Main {
         int one = Integer.parseInt(System.console().readLine("Enter the first number: "));
         int two = Integer.parseInt(System.console().readLine("Enter the second number: "));
         int three = Integer.parseInt(System.console().readLine("Enter the third number: "));
-        if (one > two && two > three){
+        if (one > two ){
             System.out.println("Число 1 больше других");
         }
         else {
-            if (two < three){
-                System.out.println("Число 3 больше других");
+            if (two > three){
+                System.out.println("Число 2 больше других");
             }
             else{
-                System.out.println("Число 2 больше других");
+                System.out.println("Число 3 больше других");
             }
         }
     }
