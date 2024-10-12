@@ -85,7 +85,7 @@ public class Main {
         int one = Integer.parseInt(System.console().readLine("Enter the first number: "));
         int two = Integer.parseInt(System.console().readLine("Enter the second number: "));
         int three = Integer.parseInt(System.console().readLine("Enter the third number: "));
-        if (one > two ){
+        if (one > two && one > three){
             System.out.println("Число 1 больше других");
         }
         else {
